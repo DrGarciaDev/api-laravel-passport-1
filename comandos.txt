@@ -1,0 +1,9 @@
+composer create-project --prefer-dist laravel/laravel api-laravel-passport "6.2"
+
+php -S localhost:8080 -t ./public
+
+after of install laravel passport provider:
+    Laravel\Passport\PassportServiceProvider::class,
+
+run comand:
+    composer require laravel/passport
