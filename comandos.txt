@@ -7,3 +7,6 @@ after of install laravel passport provider:
 
 run comand:
     composer require laravel/passport
+
+after of create database, run command:
+    php artisan migrate
