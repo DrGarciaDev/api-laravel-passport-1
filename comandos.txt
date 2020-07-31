@@ -25,3 +25,14 @@ composer require laravel/ui "^1.0" --dev
 
 Generate scalafolding for views with vue
 php artisan ui vue --auth
+
+npm install
+
+npm run dev
+
+Generate scalafolding for views with vue
+php artisan ui bootstrap --auth
+
+npm install
+
+npm run dev
