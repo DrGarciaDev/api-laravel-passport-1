@@ -36,3 +36,10 @@ php artisan ui bootstrap --auth
 npm install
 
 npm run dev
+
+
+CORS with spatie https://github.com/spatie/laravel-cors#laravel
+
+composer require spatie/laravel-cors
+
+php artisan vendor:publish --provider="Spatie\Cors\CorsServiceProvider" --tag="config"
