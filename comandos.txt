@@ -12,3 +12,8 @@ after of create database, run command:
     php artisan migrate
 
     php artisan passport:install
+
+fix error with laravel-mix:
+
+npm remove laravel-mix
+npm install laravel-mix@4.0.0
