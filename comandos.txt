@@ -17,3 +17,11 @@ fix error with laravel-mix:
 
 npm remove laravel-mix
 npm install laravel-mix@4.0.0
+
+npm run dev
+
+For Laravel 6.* you need this version:
+composer require laravel/ui "^1.0" --dev
+
+Generate scalafolding for views with vue
+php artisan ui vue --auth
