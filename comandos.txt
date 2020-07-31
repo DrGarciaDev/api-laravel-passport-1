@@ -10,3 +10,5 @@ run comand:
 
 after of create database, run command:
     php artisan migrate
+
+    php artisan passport:install

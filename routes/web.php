@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/client', function(){
+    return view('client');
+})->middleware('auth');
