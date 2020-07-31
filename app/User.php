@@ -1,7 +1,7 @@
 <?php
 
 namespace App;
-Use Laravel\Passport\HasApiToken;
+Use Laravel\Passport\HasApiTokens;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
