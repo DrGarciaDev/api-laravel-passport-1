@@ -45,7 +45,7 @@ class UserController extends Controller
             'password' => 'required',
         ]);
 
-        if ($validateData->errors()) {
+        if ($validateData->fails()) {
             return response()->json(['error' => $validateData->errors()], 401);
         }
 
